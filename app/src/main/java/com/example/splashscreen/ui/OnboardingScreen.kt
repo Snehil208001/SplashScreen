@@ -36,7 +36,7 @@ fun OnboardingScreen(navController: NavController) {
     ) {
         // 1. An Image or Illustration
         Image(
-            painter = painterResource(id = R.drawable.unnamed), // Add an illustration to your drawable folder
+            painter = painterResource(id = R.drawable.logo), // Add an illustration to your drawable folder
             contentDescription = "Onboarding Illustration",
             modifier = Modifier.size(200.dp)
         )
